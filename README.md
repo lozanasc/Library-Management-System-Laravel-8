@@ -1,5 +1,17 @@
 # Library Management System with Laravel 8
-Made by: Sean Christian Lozana
+Made by: Sean Christian Lozana  
+
+### Samples:
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115123.png?raw=true"/>
+<br>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115428.png?raw=true"/>
+<br>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115446.png?raw=true"/>
+<br>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115522.png?raw=true"/>
+<br>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115537.png?raw=true"/>
+
 ### About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
