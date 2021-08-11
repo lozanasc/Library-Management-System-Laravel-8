@@ -2,15 +2,15 @@
 Made by: Sean Christian Lozana  
 
 ### Samples:
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115123.png?raw=true" height="400" width="400"/>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115123.png?raw=true" height="450" width="800"/>
 <br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115428.png?raw=true" height="400" width="400"/>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115428.png?raw=true" height="450" width="800"/>
 <br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115446.png?raw=true" height="400" width="400"/>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115446.png?raw=true" height="450" width="800"/>
 <br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115522.png?raw=true" height="400" width="400"/>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115522.png?raw=true" height="450" width="800"/>
 <br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115537.png?raw=true" height="400" width="400"/>
+<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115537.png?raw=true" height="450" width="800"/>
 
 ### About Laravel
 
