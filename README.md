@@ -1,53 +1,186 @@
-# Library Management System with Laravel 8
-Made by: Sean Christian Lozana  
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/lozanasc-archives/Learning-Management-System">
+    <img src="samples/Logo.png" alt="Logo" width="300" height="50">
+  </a>
 
-### Samples:
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115123.png?raw=true" height="450" width="800"/>
-<br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115428.png?raw=true" height="450" width="800"/>
-<br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115446.png?raw=true" height="450" width="800"/>
-<br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115522.png?raw=true" height="450" width="800"/>
-<br>
-<img src="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/blob/main/samples/Screenshot%202021-08-11%20115537.png?raw=true" height="450" width="800"/>
+  <h3 align="center">Book Management System</h3>
 
-### About Laravel
+  <p align="center">
+    A simple Book Management System with Laravel 8 and VanillaJS
+    <br />
+    <br />
+    <a href="">Demo not available</a>
+    ·
+    <a href="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/lozanasc-school/Library-Management-System-Laravel-8/issues">Request Feature</a>
+  </p>
+</p>
+<br/>
+<p align="center">
+  <a href=""><b>This project is archived, incomplete and will not be receiving further updates<b/></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Laravel Sponsors
+![Product Name Screen Shot](samples/Sample.png)  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+This website was made for a project in one of our Application Development class, this was the framework we learned in that class  
+so our instructor wanted us to make a website using Laravel, this was the requirements for the final project.
 
+### Built With
+This system was built with the following technologies:  
+* [VanillaJS](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [Laravel 8](https://laravel.com/docs/8.x/readme)
+* [PHP](https://www.php.net/docs.php)
+* [MySQL](https://www.mysql.com/)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Hey there! You might be new to Laravel/PHP, just follow the instructions below and you'll running the project in no time! ✨
+
+### Prerequisites
+
+Let's start with the prerequisites, make sure you have the following installed in your local machine:  
+* [php](https://www.php.net/downloads.php)
+* [composer](https://getcomposer.org/download/)
+* [npm](https://nodejs.org/en/)
+  ```sh
+  npm install npm@latest -g
+  ```  
+* [nodejs](https://nodejs.org/en/)
+  ```sh
+  # To check if its installed
+  node -v
+  ```  
+* [mysql server and workbench](https://dev.mysql.com/downloads/windows/installer/8.0.html)  
+* [mysql](https://www.mysql.com/)
+  ```sh
+  mysql -h 127.0.0.1 -u root -p
+  ```  
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/lozanasc-archives/Library-Management-System-Laravel-8.git
+   ```  
+2. Install composer packages
+   ```sh
+   composer install
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```  
+4. Migrate database
+   ```sh
+   php artisan migrate
+   ```
+5. Run it! ✨
+   ```sh
+   # You have to run 2 instances of shell
+   # one where you run mix
+   npm run watch
+   # and one where you serve the laravel server
+   php artisan serve
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+You can do basic CRUD functionalities in this application as shown below:  
+### Homepage
+![Homepage](samples/Home.png)
+### Adding a new book
+![Adding a new book](samples/Book.png)
+### Log-in
+![Log-in](samples/Login.png)
+### Registration
+![Registration](samples/Register.png)
+### Dashboard
+![Dashboard](samples/Dashboard.png)
+### Dashboard (Editing)
+![Dashboard - Editing](samples/Edit.png)
+### Dashboard (Searching)
+![Dashboard - Searching](samples/Search.png)
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/lozanasc-archives/restoms/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Code of Conduct
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
+<!-- LICENSE -->
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Sean Christian Lozana - [@devzana](https://twitter.com/devzana) - lozanasc@gmail.com
+
+Project Link: [Library Management System with Laravel 8](https://github.com/lozanasc-school/Library-Management-System-Laravel-8)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [Laravel 8 Docs](https://laravel.com/docs/8.x/readme)
+* [PHP Docs](https://www.php.net/docs.php)
+* [MySQL Docs](https://www.mysql.com/)
