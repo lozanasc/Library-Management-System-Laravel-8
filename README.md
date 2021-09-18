@@ -20,7 +20,7 @@
 </p>
 <br/>
 <p align="center">
-  <a href=""><b>This project is archived, incomplete and will not be receiving further updates<b/></a>
+  <a href=""><b>This project is archived and will not be receiving further updates<b/></a>
 </p>
 
 
